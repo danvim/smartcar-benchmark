@@ -32,7 +32,7 @@ public:
     uint32_t average;
 
     /**
-     * Constructor a a Benchmark instance
+     * Constructor of Benchmark
      * @param routine function pointer to a void function.
      */
     explicit Benchmark(void (*routine)());
